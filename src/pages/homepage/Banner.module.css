@@ -1,0 +1,37 @@
+
+
+.banner {
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    text-align: left;
+    color: black;
+    max-width: 500px;
+    font-style: italic;
+    margin-left: -500px;
+}
+
+.banner-content h3 {
+    font-size: 3rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+.banner-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: gray;
+}
+
+.banner-content .btn {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    background-color: grey;
+    border: none;
+    color: white;
+}

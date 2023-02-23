@@ -1,0 +1,35 @@
+.modal {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+  }
+.modal-dialog{
+    max-width: 800px;
+    max-height: 600px;
+}
+  
+  .modal-content {
+    background-color: #fff;
+    border-radius: 0.3rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    font-style: italic;
+  }
+  .modal-content p {
+    color: gray;
+
+  }
+  
+  .modal-header,
+  .modal-footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  .modal-header {
+    border-radius: 0.3rem 0.3rem 0 0;
+  }
+  
+  .modal-footer {
+    border-radius: 0 0 0.3rem 0.3rem;
+  }
+  
